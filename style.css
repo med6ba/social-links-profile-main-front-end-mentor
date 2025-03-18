@@ -10,12 +10,12 @@
 }
 
 @font-face {
-  font-family: face-1;
+  font-family: face-2;
   src: url(./assets/fonts/static/Inter-SemiBold.ttf);
 }
 
 @font-face {
-  font-family: face-1;
+  font-family: face-3;
   src: url(./assets/fonts/static/Inter-Bold.ttf);
 }
 
@@ -23,4 +23,55 @@
   --bg: #141414;
   --card-bg: #1f1f1f;
   --accent: #c4f82a;
+}
+
+body {
+  background-color: var(--bg) !important;
+}
+
+.container-1 {
+  background-color: var(--card-bg) !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  width: 30rem !important;
+  height: 64% fixed;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+h1 {
+  color: white;
+  font-family: face-2;
+}
+
+h3 {
+  color: var(--accent);
+  font-family: face-2;
+  font-size: 1.3rem;
+}
+
+p {
+  color: white;
+  font-family: face-1;
+}
+
+a {
+  font-family: face-3 !important;
+  background-color: var(--bg) !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+a:hover {
+  background-color: var(--accent) !important;
+  color: var(--bg) !important;
+}
+
+img {
+  border-radius: 50%;
 }
