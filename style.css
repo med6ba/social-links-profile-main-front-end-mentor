@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: face-1;
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: face-1;
+  src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: face-1;
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+:root {
+  --bg: #141414;
+  --card-bg: #1f1f1f;
+  --accent: #c4f82a;
+}
